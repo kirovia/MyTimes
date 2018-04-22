@@ -1,0 +1,168 @@
+/* Universal Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  margin: 10px;
+}
+
+/* Header Styling */
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px black solid;
+  background-color: white;
+  margin-bottom: 50px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
+span {
+    color: mediumaquamarine;
+    font-weight: bold;
+    margin: 20px 10px;
+}
+
+a {
+    color: black;
+    margin: 0 10px;
+}
+
+div.logo {
+  display: flex;
+}
+
+/* Body Styling */
+
+main {
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   position: relative;
+   top: 100px;
+ }
+
+div.leftcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+div.topbox {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.leftcolumn {
+  width: 630px;
+}
+div.middlecolumn {
+  width:300px;
+}
+div.rightcolumn {
+  width: 240px;
+}
+img {
+  width: 100%;
+}
+div.mainstory, div.fall, div.camera, div.cat {
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+div.mainstory {
+  background-image: URL("../images/mainstory.png");
+  font-size: 40px;
+  height: 300px;
+}
+div.fall {
+  background-image: URL("../images/fall.png");
+  font-size: 30px;
+  height: 300px;
+}
+div.camera {
+  background-image: URL("../images/camera.png");
+  font-size: 30px;
+  height: 300px;
+}
+div.cat {
+  background-image: URL("../images/cat.png");
+  font-size: 30px;
+  height: 300px;
+}
+
+div.leftcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+div.leftcolumn-topbox {
+  display: flex;
+  flex-direction: column;
+}
+
+div.leftcolumn-bottombox {
+  display: flex;
+  flex-direction: row;
+}
+
+div.leftcolumn-bottombox-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.leftcolumn-bottombox-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.rightcolumn {
+  display: flex;
+  flex-direction: column;
+}
+
+div.rightcolumn-bottombox {
+  display: flex;
+  flex-direction: column;
+}
+
+div.rightcolumn-bottombox h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+div.rightcolumn-bottombox p {
+  background-color: whitesmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: dimgray;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/* Footer Styling */
+
+ footer {
+   display: flex;
+   height: 300px;
+   background-color: mediumaquamarine;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   position: relative;
+   top: 150px;
+ }
