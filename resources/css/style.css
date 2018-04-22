@@ -27,7 +27,7 @@ header {
   z-index: 1;
 }
 
-span {
+span.mytimesheader {
     color: mediumaquamarine;
     font-weight: bold;
     margin: 20px 10px;
@@ -160,9 +160,23 @@ div.rightcolumn-bottombox p {
    display: flex;
    height: 300px;
    background-color: mediumaquamarine;
+   font-family: Verdana;
+   font-size: 12px;
    justify-content: center;
    align-items: center;
    flex-direction: column;
    position: relative;
    top: 150px;
+   margin: auto;
  }
+
+span.mytimesfooter {
+  color: white;
+  font-size: 16px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+nav {
+  display: inline-block;
+}
